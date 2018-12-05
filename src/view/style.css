@@ -1,0 +1,43 @@
+.hbox {
+    -fx-background-color: #2e405e;
+    -fx-padding: 40;
+    -fx-background-image: url(/images/patternBack.jpg);
+    -fx-background-size: cover, auto;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+
+}
+
+.grid-pane {
+    -fx-alignment: center;
+}
+
+.side-panel {
+    -fx-border-width: 8;
+    -fx-border-color: #2196f3;
+    -fx-font-size: 27;
+    -fx-padding: 15;
+    -fx-background-image: url(/images/menuBack.png);
+    -fx-background-size: cover, auto;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+
+}
+
+.label-content {
+    -fx-font-weight: bold;
+    -fx-text-fill: #f0fc4e;
+    -fx-label-padding: 5;
+}
+
+.button {
+    -fx-font-weight: bold;
+    -fx-background-color: #2196f3;
+    -fx-font-size: 18;
+
+}
+
+.button:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}

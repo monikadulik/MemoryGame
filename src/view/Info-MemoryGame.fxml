@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="178.0" prefWidth="392.0" style="-fx-background-color: #2e405e;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="237.0" fitWidth="424.0" layoutX="-16.0" layoutY="-25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/patternBack.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="34.0" layoutY="37.0" prefHeight="118.0" prefWidth="324.0">
+         <children>
+            <Label layoutX="100.0" layoutY="1.0" prefHeight="27.0" prefWidth="125.0" text=" Monika Dulik" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="76.0" layoutY="29.0" text="II rok - Informatyka (Inż.)" textFill="WHITE">
+               <font>
+                  <Font name="System Italic" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="16.0" layoutY="62.0" text="Wydział Informatyki i Nauki o Materiałach" textFill="WHITE">
+               <font>
+                  <Font name="System Italic" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="100.0" layoutY="87.0" text="Uniwersytet Śląski" textFill="WHITE">
+               <font>
+                  <Font name="System Italic" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</Pane>
